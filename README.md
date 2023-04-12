@@ -16,9 +16,9 @@ This program loops through each excel worksheet and prints necessary stock infor
 
 
 Assistance was gathered from AskBCS to help with formatting numbers to percentages.
-  ws.Cells(i, 11).NumberFormat = "0.00%"
+  - ws.Cells(i, 11).NumberFormat = "0.00%"
   
 Assistance was gathered from Microsoft to help autofit columns.
-  ws.Columns("A:Q").AutoFit
+  - ws.Columns("A:Q").AutoFit
 
 Assistance from AskBCS to help save the file as a .vbs file through VSCode.
